@@ -242,7 +242,8 @@ main .about p {
 }
 .optionContainer .optionDiv p {
   font-size: .75rem;
-  margin: 0.75rem;
+  margin: .75rem;
+  line-height: 1rem;
 }
 .optionContainer .optionDiv button {
   width: 6rem;
@@ -250,4 +251,5 @@ main .about p {
   padding: .5rem 0;
   background-color: #FFCA00;
   border: 2px solid black;
+  border-radius: .5rem;
 }
