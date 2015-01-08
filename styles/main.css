@@ -131,7 +131,7 @@ body {
   font-family: arial, sans-serif;
 }
 .wrapper {
-  width: 900px;
+  width: 1015px;
   margin: 0 auto;
 }
 header {
@@ -171,7 +171,7 @@ main {
   background-color: black;
   padding: 1rem 2rem;
 }
-main img {
+main .mainPic {
   vertical-align: top;
   background-color: white;
   margin-right: 1rem;
@@ -181,9 +181,11 @@ main .bolding {
   font-weight: bold;
 }
 main .about {
-  width: 422px;
+  width: 537px;
+  height: 271px;
   display: inline-block;
-  background: rgba(255, 255, 255, 0.3);
+  background-color: #777776;
+  background-image: linear-gradient(90deg, #777776, #373737);
 }
 main .about .aboutSpan {
   padding: .5rem;
@@ -204,6 +206,48 @@ main .about h2 {
 main .about p {
   color: white;
   font-size: .75rem;
-  line-height: .85rem;
+  line-height: 1rem;
   margin: 1rem 1rem 1rem 1rem;
+}
+.smallLogo {
+  width: 32px;
+  margin-top: 1rem;
+}
+.disclaimer {
+  display: inline-block;
+  color: #A9AA49;
+  font-size: .5rem;
+  margin: 1rem 0 1rem 0;
+}
+.optionContainer .optionDiv {
+  display: inline-block;
+  width: 222px;
+  margin-right: 1rem;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(#ffffff, #f9efd5);
+}
+.optionContainer .optionDiv:last-child {
+  margin: 0;
+}
+.optionContainer .optionDiv .optionSpan {
+  padding: .5rem;
+  background-color: #FFDF1F;
+  background-image: linear-gradient(#ffdf1f, #fbcf03);
+}
+.optionContainer .optionDiv .optionSpan h2 {
+  font-size: .75rem;
+  color: black;
+  margin: 0 0 0 0;
+  font-weight: bold;
+}
+.optionContainer .optionDiv p {
+  font-size: .75rem;
+  margin: 0.75rem;
+}
+.optionContainer .optionDiv button {
+  width: 6rem;
+  margin: .75rem .75rem 1.5rem 7rem;
+  padding: .5rem 0;
+  background-color: #FFCA00;
+  border: 2px solid black;
 }
