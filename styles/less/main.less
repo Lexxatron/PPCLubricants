@@ -1,2 +1,103 @@
 @import "reset.less";
 
+body {
+  font-size: 12pt;
+  font-family: arial, sans-serif;
+}
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  border-bottom: 1px solid lightgray;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(#E8E8E8, #FFFFFF);
+
+  h1 {
+    display: inline-block;
+    font-weight: bold;
+    float: right;
+    margin-top: 2.75rem;
+    margin-right: 2rem;
+  }
+}
+
+nav {
+  background-color: #F1F5F6;
+  background-image: linear-gradient(#F1F5F6, #E2E7EC, #F1F5F6);
+
+  ul {
+
+
+    li {
+      display: inline-block;
+      font-size: .55rem;
+      font-weight: bold;
+      color: #777670;
+      border-right: 1px solid lightgray;
+      padding: .5rem .85rem;
+
+      &:first-child {
+        margin-left: 3rem;
+        border-left: 1px solid lightgray;
+      }
+    }
+  }
+}
+
+.gradientSpan {
+  height: 2rem;
+  background-color: #FFFFFF;
+  background-image: linear-gradient(#E8E8E8, #FFFFFF);
+}
+
+main {
+  background-color: black;
+  padding: 1rem 2rem;
+
+  img {
+    vertical-align: top;
+    background-color: white;
+    margin-right: 1rem;
+    padding: .5rem;
+  }
+
+.bolding {
+  font-weight: bold;
+}
+
+  .about {
+    width: 422px;
+    display: inline-block;
+    background:rgba(255,255,255, 0.3);
+
+    .aboutSpan {
+      padding: .5rem;
+      background-color: #FFDF1F;
+      background-image: linear-gradient(#FFDF1F, #FBCF03);
+
+      h2 {
+        font-size: .75rem;
+        color: black;
+        margin: 0 0 0 0;
+      }
+    }
+
+    h2 {
+      font-size: .75rem;
+      color: white;
+      font-weight: bold;
+      margin: 1rem 0 1rem 1rem;
+    }
+
+    p {
+      color: white;
+      font-size: .75rem;
+      line-height: .85rem;
+      margin: 1rem 1rem 1rem 1rem;
+
+    }
+  }
+}
