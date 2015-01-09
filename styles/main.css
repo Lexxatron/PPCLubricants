@@ -229,6 +229,10 @@ main .about p {
 .optionContainer .optionDiv:last-child {
   margin: 0;
 }
+.optionContainer .optionDiv img {
+  width: 222px;
+  height: 101px;
+}
 .optionContainer .optionDiv .optionSpan {
   padding: .5rem;
   background-color: #FFDF1F;
