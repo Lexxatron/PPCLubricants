@@ -6,7 +6,7 @@ body {
 }
 
 .wrapper {
-  width: 900px;
+  width: 1015px;
   margin: 0 auto;
 }
 
@@ -57,7 +57,7 @@ main {
   background-color: black;
   padding: 1rem 2rem;
 
-  img {
+  .mainPic {
     vertical-align: top;
     background-color: white;
     margin-right: 1rem;
@@ -69,9 +69,11 @@ main {
 }
 
   .about {
-    width: 422px;
+    width: 537px;
+    height: 271px;
     display: inline-block;
-    background:rgba(255,255,255, 0.3);
+    background-color: #777776;
+    background-image: linear-gradient(90deg, #777776, #373737);
 
     .aboutSpan {
       padding: .5rem;
@@ -95,9 +97,69 @@ main {
     p {
       color: white;
       font-size: .75rem;
-      line-height: .85rem;
+      line-height: 1rem;
       margin: 1rem 1rem 1rem 1rem;
 
+    }
+  }
+}
+
+.smallLogo {
+  width: 32px;
+  margin-top: 1rem;
+}
+
+.disclaimer {
+  display: inline-block;
+  color: #A9AA49;
+  font-size: .5rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.optionContainer {
+
+  .optionDiv {
+    display: inline-block;
+    width: 222px;
+    margin-right: 1rem;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(#FFFFFF, #F9EFD5);
+
+    &:last-child {
+      margin: 0;
+    }
+
+    img {
+      width: 222px;
+      height: 101px;
+    }
+
+    .optionSpan {
+      padding: .5rem;
+      background-color: #FFDF1F;
+      background-image: linear-gradient(#FFDF1F, #FBCF03);
+
+      h2 {
+        font-size: .75rem;
+        color: black;
+        margin: 0 0 0 0;
+        font-weight: bold;
+      }
+    }
+
+    p {
+      font-size: .75rem;
+      margin: .75rem;
+      line-height: 1rem;
+    }
+
+    button {
+      width: 6rem;
+      margin: .75rem .75rem 1.5rem 7rem;
+      padding: .5rem 0;
+      background-color: #FFCA00;
+      border: 2px solid black;
+      border-radius: .5rem;
     }
   }
 }
